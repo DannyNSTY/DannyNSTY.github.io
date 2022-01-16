@@ -192,3 +192,73 @@
       grid-template-columns: 1fr;
     }
   }
+
+  .project {
+    background: black;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+  }
+  
+  .code {
+    color: var(--main-green);
+    transition: color 0.3s ease-out;
+  }
+  
+  .project:hover .code {
+    color: #ff7f50;
+  }
+  
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  .project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+  }
+  
+  .btn-show-all {
+    margin: 110px;
+    padding: 20px 30px;
+    font-size: 2rem;
+    background: black;
+    transition: background 0.3s ease-out;
+    border-radius: 15px;
+  }
+  
+  .btn-show-all:hover {
+    background: var(--main-green);
+  }
+  
+  .btn-show-all:hover > i {
+    transform: translateX(2px);
+  }
+  
+  .btn-show-all > i {
+    margin-left: 10px;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-image: var(--gradient); 
+    background-size: 500%;
+    animation: bg-animation 5s infinite alternate;
+   }
