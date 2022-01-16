@@ -1,0 +1,18 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: black;
+    --main-blue: #1b4332;
+    --main-gray: #303841;
+    --main-green: #27a300;
+    --gradient: linear-gradient(45deg,
+      #03071e,
+      #370617,
+      #6a040f,
+      #9d0208,
+      #d00000,
+      #dc2f02,
+      #e85d04,
+      #f48c06,
+      #faa307,
+      #ffba08);
+  }
